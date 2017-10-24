@@ -1,5 +1,5 @@
 <div class="content-container">
-  <div id="login-container">
+  <div class="login-container">
     <form>
       <div class="form-group">
         <label for="inputName">Benutzername</label>
@@ -11,12 +11,9 @@
       </div>
       <button type="submit" class="btn btn-block btn-primary">Einloggen</button>
     </form>
-    <div id="textlink-container">
+    <div class="textlink-container">
       <div class="text-link">
-        <a href="">Passwort vergessen?</a>
-      </div>
-      <div class="text-link">
-        <a href="">Account erstellen</a>
+        <a [routerLink]="['/register']">Ich habe noch keinen Account. Lass mich einen erstellen!</a>
       </div>
     </div>
   </div>

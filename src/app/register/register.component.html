@@ -1,0 +1,24 @@
+<div class="content-container">
+  <div class="login-container">
+    <form>
+      <div class="form-group">
+        <label for="inputName">Benutzername</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Benutzername">
+      </div>
+      <div class="form-group">
+        <label for="inputPassword">Passwort</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Passwort">
+      </div>
+      <div class="form-group">
+        <label for="repeatPassword">Passwort wiederholen</label>
+        <input type="password" class="form-control" id="repeatPassword" placeholder="Passwort wiederholen">
+      </div>
+      <button type="submit" class="btn btn-block btn-primary">Anmelden</button>
+    </form>
+    <div class="textlink-container">
+      <div class="text-link">
+        <a [routerLink]="['/login']">Ich habe bereits einen Account. Bring mich zum Login!</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -4,3 +4,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.login-container {
+  border: solid 1px white;
+  margin-top: 1em;
+  padding: 1em;
+  width: 80%;
+}
+
+.textlink-container {
+  margin-top: 1em;
+}
+
+.text-link {
+  margin-top: 1em;
+}
