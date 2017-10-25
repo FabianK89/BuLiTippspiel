@@ -12,6 +12,10 @@
   width: 80%;
 }
 
+.main-container {
+  padding: 1em;
+}
+
 .textlink-container {
   margin-top: 1em;
 }
